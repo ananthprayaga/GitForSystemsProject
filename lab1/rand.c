@@ -2,10 +2,12 @@
 #include<stdio.h>
 #include<time.h>
 int main(){
+	int i = 0;
+	char record[i];
 	srand(time(NULL));
-	int randomNumber = rand()%8;
-	while(){
-		char randomletter = '0' + rand()%26;
-		printf("%d, %c\n",randomNumber,randomletter);
+	for(i=0; i<120; i++){
+		record[i] = '0' + rand()%26;
 		}
+	printf("record: %s",record);
+		
 }
